@@ -1,0 +1,34 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Python: Current File",
+            "type": "python",
+            "request": "launch",
+            "program": "${file}",
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "TXTClassy",
+            "type": "python",
+            "request": "launch",
+            "program": "${file}",
+            //"console": "internalConsole",
+            "python.venvPath": "~/Library/Caches/pypoetry/virtualenvs/txtclassy-oAvlRNjV-py3.7",
+            //"args": ["run", "--host=0.0.0.0", "--no-debugger", "--no-reload"]
+        },
+        {
+            "name": "fullifull",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceRoot}/txtclassy/main.py",
+            "console": "integratedTerminal",
+            "args": [
+                "--reload-no"
+            ]
+        }
+    ]
+}
